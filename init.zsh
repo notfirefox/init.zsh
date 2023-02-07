@@ -20,6 +20,6 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 ZVM_INIT_MODE='sourcing'
 
 # source zsh plugins
-source "$(dirname $0)/zsh-vi-mode/zsh-vi-mode.plugin.zsh"
-source "$(dirname $0)/zsh-autosuggestions/zsh-autosuggestions.zsh"
-source "$(dirname $0)/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
+source "${0:a:h}/zsh-vi-mode/zsh-vi-mode.plugin.zsh"
+source "${0:a:h}/zsh-autosuggestions/zsh-autosuggestions.zsh"
+source "${0:a:h}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
