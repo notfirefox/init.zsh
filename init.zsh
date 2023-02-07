@@ -16,7 +16,7 @@ alias mdl="$HOME/Development/sh/mdl/mdl"
 # allow case insensitive completion
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 
-# fix for zsh-autosuggestions
+# fix for zsh-syntax-highlighting
 ZVM_INIT_MODE='sourcing'
 
 # source zsh plugins
