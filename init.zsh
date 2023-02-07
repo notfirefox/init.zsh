@@ -11,8 +11,7 @@ SAVEHIST=1000
 PROMPT='[%n@%m %.]%(!.#.$) '
 
 # set aliases
-alias mdl="$HOME/Development/sh/mdl/mdl"
-alias zup="git -C ${0:a:h} submodule update --remote --merge"
+alias zsh-update="git -C ${0:a:h} submodule update --remote --merge"
 
 # allow case insensitive completion
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
