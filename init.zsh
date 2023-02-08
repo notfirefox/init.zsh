@@ -10,7 +10,7 @@ SAVEHIST=1000
 # set prompt
 PROMPT='[%n@%m %.]%(!.#.$) '
 
-# set aliases
+# create alias for updating zsh plugins
 alias zsh-update="git -C ${0:a:h} submodule update --remote --merge"
 
 # allow case insensitive completion
