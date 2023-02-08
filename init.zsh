@@ -1,4 +1,4 @@
-# set default shell
+# enable completion
 autoload -Uz compinit
 compinit
 
